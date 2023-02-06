@@ -98,6 +98,8 @@ header {
 /* _______________________________________________ */
 main {
     padding-top: 130px;
+    width: 100%;
+    max-width: 1200px;
 }
 /* _______________________________________________ */
 .row {
@@ -334,3 +336,58 @@ strong {
 
 
 
+
+
+
+
+
+
+
+
+
+/* TABLET QUERY */
+@media screen and (min-width:768px) {
+    /* LIGHTBLUE ON WHITE SECTION */
+    .tablet-row {
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: flex-start;
+        gap: 20px;
+        align-items: inherit;
+    }
+/* _______________________________________________ */
+    .tablet-col {
+        width: calc(100% / 3 - (20px / 3 * 2));
+    }
+/* _______________________________________________ */
+    .bigger {
+        width: calc(100% / 3 * 2 - (20px / 3));
+    }
+    /* /LIGHTBLUE ON WHITE SECTION */
+
+    
+    /* PURPLE ON WHITE SECTION */
+    .tablet-card {
+        display: flex;
+        flex-direction: row;
+    }
+/* _______________________________________________ */
+    .circle {
+        padding: 20px;
+    }
+/* _______________________________________________ */
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: start;
+    }
+/* _______________________________________________ */
+    .not-block {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+    /* /PURPLE ON WHITE SECTION */
+
+}
