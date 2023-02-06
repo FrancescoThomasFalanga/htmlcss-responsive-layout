@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 a{
@@ -91,6 +91,10 @@ img {
 /* /NAV-BAR */
 
 /* MAIN */
+header {
+    width: 100%;
+}
+/* _______________________________________________ */
 main {
     padding-top: 130px;
 }
@@ -99,6 +103,7 @@ main {
     margin: 0 40px;
     display: flex;
     flex-flow: wrap column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -139,32 +144,31 @@ main {
     background-color: #9792e4;
     padding-bottom: 50px;
 }
-
+/* _______________________________________________ */
 .purple-row {
     display: flex;
     align-items: start;
     padding-top: 50px;
     text-align: start;
 }
-
+/* _______________________________________________ */
 .white-title {
     color: white;
 }
-
+/* _______________________________________________ */
 .white-title-paragraph {
     color: white;
     margin: 0;
 }
-
+/* _______________________________________________ */
 .black-title {
     color: black;
 }
-
-
+/* _______________________________________________ */
 #italic {
     font-style: italic;
 }
-
+/* _______________________________________________ */
 .purple-button {
     padding: 12px;
     border-radius: 50%;
@@ -172,7 +176,38 @@ main {
     color: black;
     font-size: 12px;
 }
-
+/* _______________________________________________ */
 .white-col {
     background-color: white;
 }
+/* /WHITE ON PURPLE SECTION */
+
+
+/* PURPLE ON WHITE SECTION */
+.only-paragraph {
+    padding-top: 50px;
+    background-color: white;
+}
+/* _______________________________________________ */
+.purple-col {
+    background-color: #9792e4;
+}
+/* _______________________________________________ */
+img[src*="testimonial"] {
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 50%;
+}
+/* _______________________________________________ */
+.not-block {
+    padding: 0 10px;
+    color: white;
+}
+/* _______________________________________________ */
+strong {
+    padding-bottom: 30px;
+    color: white;
+}
+/* PURPLE ON WHITE SECTION */
+
+
