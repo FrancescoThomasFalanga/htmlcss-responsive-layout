@@ -310,3 +310,27 @@ strong {
     text-decoration: underline;
 }
 /* /WHITE ON PURPLE WITHOUT IMG */
+
+/* /MAIN */
+
+
+/* FOOTER */
+.black-backg {
+    padding-bottom: 50px;
+    background-color: #333333;
+    line-height: normal;
+}
+/* _______________________________________________ */
+.normal-margin {
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+/* _______________________________________________ */
+.normal-link {
+    color: #8d88d3;
+    text-decoration: underline;
+}
+/* /FOOTER */
+
+
+
