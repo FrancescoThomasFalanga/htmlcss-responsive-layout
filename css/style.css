@@ -157,6 +157,14 @@ main {
     text-align: start;
 }
 /* _______________________________________________ */
+.no-background {
+    background-color: #9792e4;
+}
+/* _______________________________________________ */
+.some-padding {
+    padding: 20px 0;
+}
+/* _______________________________________________ */
 .white-title {
     color: white;
 }
@@ -501,5 +509,76 @@ strong {
     .demo-app-img {
         width: calc(100% / 2);
     }
-        /* /LIGHTBLUE ON WHITE SECTION */
+    /* /LIGHTBLUE ON WHITE SECTION */
+
+
+    
+    /* WHITE ON PURPLE */
+    .purple-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .planning-col {
+        width: calc(100% / 2 - 30px);
+    }
+
+    .equi {
+        margin-top: 100px;
+    }
+
+    .no-background {
+        padding-top: 130px;
+        text-align: left;
+    }
+    /* /WHITE ON PURPLE */
+
+
+
+    /* PURPLE ON WHITE SECTION */
+    .tablet-card {
+        display: flex;
+        flex-direction: row;
+    }
+/* _______________________________________________ */
+    .circle {
+        padding: 20px;
+    }
+/* _______________________________________________ */
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: start;
+    }
+/* _______________________________________________ */
+    .not-block {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+    /* /PURPLE ON WHITE SECTION */
+
+
+
+    /* WHITE ON PURPLE SECTION */
+    .tablet-benefits-row {
+        display: flex;
+        flex-flow: wrap row;
+        gap: 20px;
+        align-items: inherit;
+    }
+/* _______________________________________________ */
+    .tablet-benefits-col {
+        width: calc(100% / 2 - (20px / 2));
+        line-height: normal;
+    }
+/* _______________________________________________ */
+    .tablet-small-text {
+        font-size: 13px;
+        line-height: 30px;
+        color: #666666;
+    }
+    /* /WHITE ON PURPLE SECTION */
 }
