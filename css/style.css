@@ -5,12 +5,38 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+}
+
 a{
     text-decoration: none;
+    color: white;
 }
+
 ul{
     list-style-type: none;
 }
+
+p {
+    margin: 30px 0;
+}
+
+h2 {
+    color: #0082fd;
+}
+
+img {
+    width: 100%;
+}
+
+.lightblue-button {
+    padding: 8px 30px;
+    background-color: #0084fd;
+    border-radius: 20px;
+}
+
 /* /GENERAL SETTINGS */
 
 
@@ -63,3 +89,90 @@ ul{
     max-height: 100%;
 }
 /* /NAV-BAR */
+
+/* MAIN */
+main {
+    padding-top: 130px;
+}
+/* _______________________________________________ */
+.row {
+    margin: 0 40px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    gap: 30px;
+}
+/* _______________________________________________ */
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #b5ddff;
+}
+.col-inner-first {
+    text-align: start;
+}
+.col-inner {
+    padding: 30px;
+}
+
+/* LIGHTBLUE ON WHITE SECTION */
+.out-of-border {
+    padding-top: 50px;
+    width: 100%;
+    margin-bottom: -36px;
+}
+/* _______________________________________________ */
+.lightblue-icon {
+    color: #0084fd;
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+/* LIGHTBLUE ON WHITE SECTION */
+
+
+/* WHITE ON PURPLE SECTION */
+.purple-backg {
+    margin-top: 80px;
+    background-color: #9792e4;
+    padding-bottom: 50px;
+}
+
+.purple-row {
+    display: flex;
+    align-items: start;
+    padding-top: 50px;
+    text-align: start;
+}
+
+.white-title {
+    color: white;
+}
+
+.white-title-paragraph {
+    color: white;
+    margin: 0;
+}
+
+.black-title {
+    color: black;
+}
+
+
+#italic {
+    font-style: italic;
+}
+
+.purple-button {
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #9792e4;
+    color: black;
+    font-size: 12px;
+}
+
+.white-col {
+    background-color: white;
+}
