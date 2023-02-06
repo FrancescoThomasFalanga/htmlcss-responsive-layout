@@ -47,6 +47,7 @@ img {
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 2;
     background-color: #0084fd;
 }
 /* _______________________________________________ */
@@ -250,6 +251,13 @@ strong {
     font-size: 32px;
 }
 /* _______________________________________________ */
+.absolute {
+    position: absolute;
+    left: calc(100% / 2 - 20px);
+    color: #9792e4;
+    font-size: 70px;
+}
+/* _______________________________________________ */
 .linkedin {
     margin-bottom: 60px;
     border-radius: 20px;
@@ -259,3 +267,46 @@ strong {
     color: white;
 }
 /* /ONLY-WHITE */
+
+
+/* WHITE ON PURPLE WITHOUT IMG */
+.last-col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+/* _______________________________________________ */
+#get-started {
+    color: #c9c7f0;
+}
+/* _______________________________________________ */
+.things-about {
+    padding: 20px 0;
+    color: white;
+}
+/* _______________________________________________ */
+#free {
+    padding-top: 10px;
+    color: #fdc15f;
+    font-size: 40px;
+}
+/* _______________________________________________ */
+.white-button {
+    margin: 20px 0;
+    border-radius: 40px;
+    padding: 10px 70px;
+    background-color: white;
+    color: #9792e4;
+}
+/* _______________________________________________ */
+.copyright {
+    font-size: 13px;
+}
+/* _______________________________________________ */
+.privacy {
+    text-decoration: underline;
+}
+/* /WHITE ON PURPLE WITHOUT IMG */
