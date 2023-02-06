@@ -1,5 +1,65 @@
+/* GENERAL SETTINGS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* /GENERAL SETTINGS */
+
+
+/* NAV-BAR */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #0084fd;
+}
+/* _______________________________________________ */
+.logo{
+    display: inline-block;
+    font-size: 60px;
+    margin-left: 30px;
+}
+/* _______________________________________________ */
+.nav{
+    margin-top: 300px;
+    width: 100%;
+    position: fixed;
+    background-color: #0084fd;
+    overflow: hidden;
+    max-height: 0;
+}
+/* _______________________________________________ */
+.menu a{
+    display: block;
+    padding: 30px;
+    color: white;
+}
+.fa-bars {
+    color: white;
+    font-size: 20px;
+}
+/* _______________________________________________ */
+.hamb{
+    cursor: pointer;
+    padding: 20px 20px;
+    margin-right: 10px;
+}
+/* _______________________________________________ */
+.side-menu {
+    display: none;
+}
+/* _______________________________________________ */
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+/* /NAV-BAR */
