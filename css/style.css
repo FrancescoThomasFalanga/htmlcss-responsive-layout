@@ -92,14 +92,16 @@ img {
 /* /NAV-BAR */
 
 /* MAIN */
-header {
-    width: 100%;
-}
+
 /* _______________________________________________ */
 main {
     padding-top: 130px;
-    width: 100%;
+}
+/* _______________________________________________ */
+.centered-container {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* _______________________________________________ */
 .row {
@@ -130,7 +132,7 @@ main {
 .out-of-border {
     padding-top: 50px;
     width: 100%;
-    margin-bottom: -36px;
+    margin-bottom: -39px;
 }
 /* _______________________________________________ */
 .lightblue-icon {
