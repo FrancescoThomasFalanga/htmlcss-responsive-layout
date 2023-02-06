@@ -169,7 +169,7 @@ main {
     font-style: italic;
 }
 /* _______________________________________________ */
-.purple-button {
+.purple-button-down {
     padding: 12px;
     border-radius: 50%;
     background-color: #9792e4;
@@ -193,7 +193,7 @@ main {
     background-color: #9792e4;
 }
 /* _______________________________________________ */
-img[src*="testimonial"] {
+img[src*="testimonial"], img[src*="about"] {
     margin-top: 20px;
     width: 200px;
     border-radius: 50%;
@@ -242,3 +242,20 @@ strong {
     padding-bottom: 20px;
 }
 /* /WHITE ON PURPLE SECTION */
+
+
+/* ONLY-WHITE */
+.size-title {
+    padding-top: 60px;
+    font-size: 32px;
+}
+/* _______________________________________________ */
+.linkedin {
+    margin-bottom: 60px;
+    border-radius: 20px;
+    padding: 3px 20px;
+    font-size: 12px;
+    background-color: #9792e4;
+    color: white;
+}
+/* /ONLY-WHITE */
