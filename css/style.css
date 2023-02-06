@@ -365,6 +365,7 @@ strong {
     }
     /* /LIGHTBLUE ON WHITE SECTION */
 
+
     
     /* PURPLE ON WHITE SECTION */
     .tablet-card {
@@ -390,4 +391,25 @@ strong {
     }
     /* /PURPLE ON WHITE SECTION */
 
+
+
+    /* WHITE ON PURPLE SECTION */
+    .tablet-benefits-row {
+        display: flex;
+        flex-flow: wrap row;
+        gap: 20px;
+        align-items: inherit;
+    }
+
+    .tablet-benefits-col {
+        width: calc(100% / 2 - (20px / 2));
+        line-height: normal;
+    }
+
+    .tablet-small-text {
+        font-size: 13px;
+        line-height: 30px;
+        color: #666666;
+    }
+    /* /WHITE ON PURPLE SECTION */
 }
