@@ -208,7 +208,9 @@ main {
 /* _______________________________________________ */
 img[src*="testimonial"], img[src*="about"] {
     margin-top: 20px;
+    height: 200px;
     width: 200px;
+    object-fit: cover;
     border-radius: 50%;
 }
 /* _______________________________________________ */
@@ -228,6 +230,7 @@ strong {
 #benefits {
     color: white;
     margin-top: 60px;
+    padding: 50px 0;
     font-size: 32px;
     text-align: center;
 }
@@ -566,12 +569,13 @@ strong {
     .tablet-benefits-row {
         display: flex;
         flex-flow: wrap row;
+        justify-content: space-between;
         gap: 20px;
         align-items: inherit;
     }
 /* _______________________________________________ */
     .tablet-benefits-col {
-        width: calc(100% / 2 - (20px / 2));
+        width: calc(100% / 3 - 20px);
         line-height: normal;
     }
 /* _______________________________________________ */
@@ -581,4 +585,42 @@ strong {
         color: #666666;
     }
     /* /WHITE ON PURPLE SECTION */
+
+
+
+    /* ONLY WHITE */
+    .tablet-about-row {
+        display: flex;
+        flex-flow: wrap row;
+
+        gap: 60px;
+        align-items: inherit;
+    }
+/* _______________________________________________ */
+    .tablet-about-col {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 20px;
+        width: calc(100% / 2 - (60px / 2));
+    }
+/* _______________________________________________ */
+    .about-us-img {
+        padding-top: 60px;
+        text-align: center;
+        width: 200px;
+    }
+/* _______________________________________________ */
+    .linkedin {
+        max-width: 180px;
+    }
+/* _______________________________________________ */
+    img[src*="about"] {
+        margin: 0;
+    }
+/* _______________________________________________ */
+    .purple-button {
+        margin-bottom: 0;
+    }
+    /* /ONLY WHITE */
 }
