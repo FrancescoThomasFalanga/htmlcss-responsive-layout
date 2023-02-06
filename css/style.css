@@ -252,10 +252,15 @@ strong {
     padding-top: 60px;
     font-size: 32px;
 }
+
+.about-us-img {
+    position: relative;
+    width: 200px;
+}
 /* _______________________________________________ */
 .absolute {
     position: absolute;
-    left: calc(100% / 2 - 20px);
+    right: 0;
     color: #9792e4;
     font-size: 70px;
 }
@@ -279,6 +284,7 @@ strong {
     text-align: center;
     padding-top: 50px;
     color: white;
+    max-width: 600px;
 }
 /* _______________________________________________ */
 #get-started {
@@ -288,12 +294,13 @@ strong {
 .things-about {
     padding: 20px 0;
     color: white;
+    font-size: 30px;
 }
 /* _______________________________________________ */
 #free {
     padding-top: 10px;
     color: #fdc15f;
-    font-size: 40px;
+    font-size: 50px;
 }
 /* _______________________________________________ */
 .white-button {
@@ -333,13 +340,6 @@ strong {
     text-decoration: underline;
 }
 /* /FOOTER */
-
-
-
-
-
-
-
 
 
 
@@ -400,16 +400,51 @@ strong {
         gap: 20px;
         align-items: inherit;
     }
-
+/* _______________________________________________ */
     .tablet-benefits-col {
         width: calc(100% / 2 - (20px / 2));
         line-height: normal;
     }
-
+/* _______________________________________________ */
     .tablet-small-text {
         font-size: 13px;
         line-height: 30px;
         color: #666666;
     }
     /* /WHITE ON PURPLE SECTION */
+
+
+
+    /* ONLY WHITE */
+    .tablet-about-row {
+        display: flex;
+        flex-flow: wrap row;
+
+        gap: 60px;
+        align-items: inherit;
+    }
+/* _______________________________________________ */
+    .tablet-about-col {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 20px;
+        width: calc(100% / 2 - (60px / 2));
+    }
+/* _______________________________________________ */
+    .about-us-img {
+        padding-top: 60px;
+        text-align: center;
+        width: 200px;
+    }
+/* _______________________________________________ */
+    .linkedin {
+        max-width: 180px;
+    }
+/* _______________________________________________ */
+    img[src*="about"] {
+        margin: 0;
+    }
+    /* /ONLY WHITE */
 }
+/* /TABLET QUERY */
