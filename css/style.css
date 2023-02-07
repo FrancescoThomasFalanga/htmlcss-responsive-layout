@@ -170,6 +170,8 @@ main {
 /* _______________________________________________ */
 .no-background {
     background-color: #9792e4;
+    padding-top: 130px;
+    text-align: left;
 }
 /* _______________________________________________ */
 .some-padding {
@@ -559,18 +561,13 @@ strong {
         flex-direction: row;
         justify-content: space-around;
     }
-
+/* _______________________________________________ */
     .planning-col {
         width: calc(100% / 2 - 30px);
     }
-
+/* _______________________________________________ */
     .equi {
         margin-top: 100px;
-    }
-
-    .no-background {
-        padding-top: 130px;
-        text-align: left;
     }
     /* /WHITE ON PURPLE */
 
